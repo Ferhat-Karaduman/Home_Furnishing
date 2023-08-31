@@ -239,3 +239,153 @@ header {
   /* object-fit: cover;
   position:relative; */
 }
+/* -------------------------------------------------------------------------- */
+/*                                   CONTACT                                  */
+/* -------------------------------------------------------------------------- */
+.contact{
+    background-color: #aea08d;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-wrap:wrap;
+    padding:2rem;
+  }
+  
+  .expert{
+    /* width: 50%; */
+    flex:1;
+    padding:1rem;
+    
+  }
+  
+  .lookForExpert{
+    font-family:"Bellota",cursive ;
+    font-size:2rem;
+    line-height:1.5;
+  }
+  span{
+    color:#F37705;
+  }
+  .leaveInfo{
+    font-family: "Judson", serif;
+    margin-top:1rem;
+    font-size:1rem;
+  }
+  
+  .formSection{
+    width: 40%;
+    font-size:1.5rem;
+  }
+  
+  .formElement input{
+    width: 100%;
+    border:none;
+    outline:none;
+    background-color: inherit;
+    border-bottom:1px solid black;
+    padding:0.5rem 0;
+  }
+  
+  .formElement{
+    margin:1.5rem 1rem;
+  }
+  .submit{
+    padding:1rem;
+    margin-left:1rem;
+    border-radius:5px;
+    height: 40px;
+    width: 13rem;
+    text-align:left;
+    font-style:italic; 
+    display: flex;
+    align-items: center;
+    border:1px solid black;
+  }
+  
+  .copyright{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:2rem;
+  }
+  
+  .policy{
+    display: flex;
+    justify-content: space-around;
+    gap:1rem;
+  }
+  .policy a{
+    text-decoration: none;
+    color:inherit;
+    border-bottom:1px solid black;
+  }
+  
+  @media only screen and (max-width: 600px) {
+  
+   html{
+      font-size:12px;
+    }
+    .essentials {   
+    height: auto;
+    flex-direction:column; 
+  }
+  
+  .essential-text {
+    padding: 10px; 
+    font-size: 1.5rem;
+  
+  }
+  
+  .search-input {
+    width: 250px;
+    height: 40px; 
+    /* margin-left: 1rem; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .search-input input {
+    
+    font-size: 0.8rem;
+  }
+  .search-input img {
+    margin: 0;
+  }
+  .category {
+    /* height: 300px;
+    width: 300px; */
+    padding: 0.8rem 1.7px 0.8rem 0.8rem;
+  }
+  
+  
+  
+  .contact{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction:column;
+  }
+  .formSection{
+    width: 100%;
+    font-size:1.5rem;
+  }
+  .expert{
+    /* width: 50%; */
+    flex:1;
+    padding:1rem;
+    text-align: center;
+    
+  }
+  .copyright{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction:column;  
+    padding:2rem;
+  }
+  .copyright p{
+    margin-bottom:1rem;
+  }
+  
+  }
